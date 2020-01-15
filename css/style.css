@@ -1,0 +1,1005 @@
+* {
+    margin: 0 auto;
+  }
+
+  @font-face {
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fjalla One'), url('../fonts/FjallaOne-Regular.woff') format('woff');
+    }
+
+  @font-face {
+    font-family: 'Great Vibes Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Great Vibes Regular'), url('../fonts/GreatVibes-Regular-webfont.woff') format('woff');
+   }
+
+   @font-face {
+    font-family: 'OpenSans-Y2K';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OpenSans-Y2K'), url('../fonts/OpenSans-Y2K.woff') format('woff');
+   }
+
+  .header{
+    max-width: 100%;
+    min-height: 780px;
+    background: url("../images/banner.png") no-repeat;
+    background-position: top center;
+    background-color: #22191a;
+  }
+
+  .menu ul {
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+  }
+
+  .menu li{
+    list-style-type: none;
+    height: 100px;
+  }
+
+  .menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+  }
+
+  .menu a:hover{
+    color: #ffffff;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    border-bottom:1px solid #ff1a2c;
+    padding-bottom:5px;
+  }
+
+  .header button{
+    display: block;
+    width: 170px;
+    height: 55px;
+    background-color: #ff1a2c;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    position: relative;
+    margin-top: 350px;
+  } 
+
+  .about_us{
+    max-width: 1170px;
+    height: auto;
+    display: flex;
+  }
+
+  h1{
+    font-family: 'Great Vibes Regular';
+    color: #ff1a2c;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  h2{
+    font-family: 'Fjalla One';
+    color: #000000;
+    font-size: 52px;
+    text-align: center;
+  }
+
+  .about_us a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+  }
+
+  .about_us p{
+    font-family: 'OpenSans-Y2K';
+    color: #000000;
+    font-size: 16px;
+  }
+
+  .about_us button{
+    width: 170px;
+    height: 55px;
+    background-color: #ff1a2c;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    margin-top: 90px;
+  } 
+
+  .about_us-left_side{
+    width: 585px;
+    height: auto;
+    margin-top: 2%;
+  }
+
+  .about_us-right_side{
+    width: 585px;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 9%;
+  }
+
+  .classes{
+    max-width: 100%;
+    height: 100%;
+    background-color: #22191a;
+    padding-bottom: 5%;
+  }
+
+  .classes h1{
+    padding-top: 5%;
+  }
+
+  .classes h2{
+    color: #ffffff;
+  }
+
+  .classes a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+  }
+
+  .classes p{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'OpenSans-Y2K';
+    font-size: 16px;
+    margin-top: 1%;
+  }
+
+  .classes .btn{
+    display: block;
+    width: 170px;
+    height: 55px;
+    background-color: #ff1a2c;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 50px;
+  } 
+
+  .slick_slider{
+    margin-top: 50px;
+  }
+
+.slick-dotted.slick-slider
+
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.slick-dots li
+
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    top: 20px;
+
+    cursor: pointer;
+}
+
+.slick-dots li button
+
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #ff1a2c;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus
+
+{
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+
+{
+    opacity: 1;
+}
+
+.slick-dots li button:before
+
+{
+    font-family: 'slick';
+    font-size: 18px;
+    line-height: 13px;
+
+    position: absolute;
+    top: 4px;
+    left: 3.5px;
+
+    content: '\f007';
+    background: #ff1a2c;
+    text-align: center;
+
+    opacity: 0;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before
+
+{
+    opacity: 1;
+    color: #ff1a2c;
+}
+
+.arrows{
+  max-width: 1170px;
+}
+
+.prev{
+    width: 0;
+    height: 0;
+    list-style-type: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #ff1a2c;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+
+  .classes .next{
+    width: 0;
+    height: 0;
+    list-style-type: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-left:10px solid #ff1a2c;
+    margin-left: 1170px;
+    margin-top: -1.5%;
+    cursor: pointer;
+  }
+
+  hr{
+    width: 15px;
+    border: 2px solid #ff1a2c;
+    margin-left: 10px;
+    margin-top: -1px;
+  }
+
+  .hr{
+    width: 15px;
+    border: 2px solid #ff1a2c;
+    margin-left: -29px;
+    margin-top: -1px;
+  }
+
+  .training{
+    max-width: 1170px;
+    height: auto;
+    display: flex;
+  }
+
+  .training p{
+    font-family: 'OpenSans-Y2K';
+    color: #000000;
+    font-size: 16px;
+    margin-top: 5%;
+  }
+
+  .training-left_side{
+    width: 585px;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .training-right_side{
+    width: 585px;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .training-right_side .call_us{
+    width: 300px;
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .training-right_side .call_us h1{
+    font-family: 'Fjalla One';
+    color: #000000;
+    font-size: 32px;
+    margin: 0 auto;
+  }
+
+  .training-right_side .call_us h2{
+    font-family: 'Fjalla One';
+    color: #ff1a2c;
+    font-size: 30px;
+    margin: 0 auto;
+  }
+
+  .tasting{
+    max-width: 100%;
+    background-color: #22191a;
+  }
+
+  .tasting h1{
+    padding-top: 5%;
+  }
+
+  .tasting h2{
+    color: #ffffff;
+  }
+
+  .tasting .wines{
+    max-width: 1170px;
+    height: auto;
+  }
+
+  .tasting .wines img{
+    margin: 1.1%;
+  }
+
+  .tasting .wines img:hover{
+    margin: 1.1%;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .tasting .text{
+    max-width: 1170px;
+    display: flex;
+  }
+
+  .tasting .wines p{
+    width: 1170px;
+    font-family: 'Fjalla One';
+    font-size: 21px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .tasting a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+  }
+
+  .tasting .wines button{
+    width: 170px;
+    height: 55px;
+    background-color: #ff1a2c;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 5% 43%;
+  } 
+
+  .happy_clients{
+    max-width: 100%;
+    min-height: 600px;
+    background: url("../images/bg.png") no-repeat;
+    background-position: top center;
+    background-color: #22191a;
+  }
+
+  .happy_clients_content{
+    max-width: 1170px;
+    height: auto;
+    display: flex;
+  }
+
+  .happy_clients_rightside{
+    width: 585px;
+    height: auto;
+    margin-top: 5%;
+  }
+
+  .happy_clients_leftside{
+    width: 585px;
+    height: auto;
+  }
+
+  .happy_clients h2{
+    color: #ffffff;
+  }
+
+  .happy_clients .scope{
+    font-size: 52px;
+    font-weight: bold;
+    color: #ff1a2c;
+    transform: rotate(540deg);
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .happy_clients p{
+    color: #ffffff;
+    margin: 0 0 0 5%;
+    font-size: 18px;
+  }
+
+  .happy_clients .user{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .happy_clients_rightside .next_happy_clients{
+    width: 0;
+    height: 0;
+    list-style-type: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-left:10px solid #ff1a2c;
+    margin-left: 500px;
+    margin-top: -3%;
+    cursor: pointer;
+  }
+
+  .footer{
+    width: 100%;
+    height: 160px;
+    background-color: #22191a;
+  }
+
+  .footer_content{
+    max-width: 1170px;
+    display: flex;
+  }
+
+  .footer_leftside{
+    width: 300px;
+    height: 130px;
+    margin-top: 1%;
+    background: url('../images/logo.png') no-repeat;
+    background-size: contain;
+  }
+
+  .footer_middle{
+    width: 570px;
+  }
+
+  .footer_middle ul {
+    display: flex;
+    align-items: center;
+    margin-top: 12%;
+  }
+
+  .footer_middle li{
+    list-style-type: none;
+    height: 100px;
+  }
+
+  .footer_middle a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+  }
+
+  .footer_middle a:hover{
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom:1px solid #ff1a2c;
+    padding-bottom:5px;
+  }
+
+  .footer_rightside{
+    width: 300px;
+    height: 160px;
+  }
+
+  .footer_rightside p{
+    font-family: 'Fjalla One';
+    font-size: 14px;
+    color: #ffffff;
+    text-align: right;
+    margin-top: 15%;
+  }
+
+  .footer_rightside .facebook{
+    margin-left: 200px;
+    margin-top: 10px;
+    position: absolute;
+    margin-top: 1%;
+  }
+
+  .footer_rightside .instagram{
+    margin-left: 260px;
+    position: absolute;
+    margin-top: 1%;
+  }
+
+  .footer-bottom{
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+  }
+
+  .footer-bottom p{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 0.5%;
+  }
+
+  nav::before{
+    display: none;
+  }
+
+  #menuToggle{
+    display: none;
+  }
+
+  @media screen and (max-width: 1024px){
+
+    .about_us{
+      max-width: 1170px;
+      height: auto;
+      display: block;
+      text-align: center;
+    }
+
+    .about_us-right_side{
+      margin-right: 260px;
+      margin-top: 5%;
+    }
+
+    .training{
+      max-width: 1170px;
+      height: auto;
+      display: block;
+      text-align: center;
+    }
+
+
+    .tasting .wines p{
+      width: 1170px;
+      font-family: 'Fjalla One';
+      font-size: 18px;
+      color: #ffffff;
+      text-align: center;
+      padding-bottom: 3%;
+    }
+    
+    .wines img{
+      width: 22%;
+      height: 22%;
+      position: relative;
+      left: 1%;
+    }
+
+    .classes .next{
+      margin-left: 900px;
+    }
+
+    .footer_rightside .facebook{
+      margin-left: 170px;
+      margin-top: 10px;
+      position: absolute;
+      margin-top: 1%;
+    }
+  
+    .footer_rightside .instagram{
+      margin-left: 220px;
+      position: absolute;
+      margin-top: 1%;
+    }
+
+  }
+
+  @media screen and (max-width: 768px){
+
+    .about_us-right_side{
+      position: relative;
+      margin-left: 50px;
+    }
+
+    .classes .next{
+      margin-left: 630px;
+    }
+
+    .footer_rightside .facebook{
+      margin-left: 100px;
+      margin-top: 10px;
+      position: absolute;
+      margin-top: 1%;
+    }
+  
+    .footer_rightside .instagram{
+      margin-left: 150px;
+      position: absolute;
+      margin-top: 1%;
+    }
+
+    .tasting .wines button{
+      margin: 0 0 5% 38%;
+    } 
+
+    .header button{
+      margin-top: 380px;
+    } 
+
+    #menuToggle {
+      display: block;
+      position: relative;
+      top: 25px;
+      right: -50px;
+   
+      z-index: 1;
+   
+      -webkit-user-select: none;
+      user-select: none;
+    }
+ 
+     #menuToggle a{
+      text-decoration: none;
+      color: #232323;
+   
+     transition: color 0.3s ease;
+    }
+ 
+    #menuToggle a:hover{
+     color: tomato;
+    }
+ 
+ 
+    #menuToggle input{
+     display: block;
+     width: 40px;
+     height: 32px;
+     position: relative;
+     top: -7px;
+     left: -5px;
+   
+     cursor: pointer;
+   
+     opacity: 0;
+     z-index: 2; 
+   
+     -webkit-touch-callout: none;
+   }
+ 
+    #menuToggle span{
+     display: block;
+     width: 33px;
+     height: 4px;
+     margin-bottom: 5px;
+     position: relative;
+   
+     background: #cdcdcd;
+     border-radius: 3px;
+   
+     z-index: 1;
+   
+     transform-origin: 4px 0px;
+   
+     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               opacity 0.55s ease;
+   }
+ 
+   #menuToggle span:first-child{
+     transform-origin: 0% 0%;
+   }
+ 
+   #menuToggle span:nth-last-child(2){
+     transform-origin: 0% 100%;
+   }
+ 
+   #menuToggle input:checked ~ span{
+     opacity: 1;
+     transform: rotate(45deg) translate(-2px, -1px);
+     background: #232323;
+   }
+ 
+   #menuToggle input:checked ~ span:nth-last-child(3){
+     opacity: 0;
+     transform: rotate(0deg) scale(0.2, 0.2);
+   }
+ 
+   #menuToggle input:checked ~ span:nth-last-child(2){
+     transform: rotate(-45deg) translate(0, -1px);
+   }
+ 
+   #menu{
+     position: absolute;
+     width: 300px;
+     margin: -100px 0 0 -50px;
+     padding: 50px;
+     padding-top: 125px;
+   
+     background: #ededed;
+     list-style-type: none;
+     -webkit-font-smoothing: antialiased;
+     transform-origin: 0% 0%;
+     transform: translate(-100%, 0);
+   
+     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+   }
+ 
+   #menu li{
+     padding: 10px 0;
+     font-size: 22px;
+   }
+ 
+   #menuToggle input:checked ~ ul{
+     transform: none;
+   }
+ 
+   nav::after{
+     display:visible;
+   }
+   
+   #menuToggle::after{
+     display: visible;
+   }
+ 
+   .menu{
+     display: none;
+   }
+   
+  }
+
+  @media screen and (max-width: 425px){
+
+    .header button{
+      margin-top: 430px;
+    }
+
+    .about_us{
+      text-align: left;
+    }
+
+    .about_us p{
+      font-size: 12px;
+      margin-left: 2%;
+    }
+
+    .about_us img{
+      width: 50%;
+      height: 50%;
+    }
+
+    .training{
+      text-align: left;
+    }
+
+    .training p{
+      font-size: 10px;
+      margin-left: 2%;
+    }
+
+    .training h1{
+      text-align: center;
+      margin-left: -35%;
+    }
+
+    .training h2{
+      text-align: center;
+      margin-left: -35%;
+    }
+
+    .training img{
+      width: 50%;
+      height: 50%;
+      margin-left: 10%;
+    }
+
+    .slick_slider img{
+      width: 100%;
+      height: 100%;
+    }
+
+    .classes .next{
+      margin-left: 310px;
+    }
+
+    .happy_clients_rightside{
+      width: 100%;
+      height: auto;
+      margin-top: 5%;
+    }
+
+    .happy_clients_rightside .next_happy_clients{
+      margin-left: 310px;
+    }
+
+    .footer_rightside .facebook{
+      margin-left: 90px;
+      margin-top: 10px;
+      position: absolute;
+      margin-top: 1%;
+    }
+  
+    .footer_rightside .instagram{
+      margin-left: 140px;
+      position: absolute;
+      margin-top: 1%;
+    }
+
+    .footer_middle{
+      display: none;
+    }
+
+    .call_us{
+      margin-left: 5%;
+    }
+
+    #menuToggle {
+     display: block;
+     position: relative;
+     top: 25px;
+     right: -50px;
+  
+     z-index: 1;
+  
+     -webkit-user-select: none;
+     user-select: none;
+   }
+
+    #menuToggle a{
+     text-decoration: none;
+     color: #232323;
+  
+    transition: color 0.3s ease;
+   }
+
+   #menuToggle a:hover{
+    color: tomato;
+   }
+
+
+   #menuToggle input{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: relative;
+    top: -7px;
+    left: -5px;
+  
+    cursor: pointer;
+  
+    opacity: 0;
+    z-index: 2; 
+  
+    -webkit-touch-callout: none;
+  }
+
+   #menuToggle span{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+  
+    background: #cdcdcd;
+    border-radius: 3px;
+  
+    z-index: 1;
+  
+    transform-origin: 4px 0px;
+  
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child{
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2){
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked ~ span{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(3){
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(2){
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+  
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+  
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
+  #menu li{
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+  #menuToggle input:checked ~ ul{
+    transform: none;
+  }
+
+  nav::after{
+    display:visible;
+  }
+  
+  #menuToggle::after{
+    display: visible;
+  }
+
+  .menu{
+    display: none;
+  }
+
+}

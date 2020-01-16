@@ -620,7 +620,6 @@
       text-align: center;
     }
 
-
     .tasting .wines p{
       width: 1170px;
       font-family: 'Fjalla One';
@@ -865,6 +864,11 @@
       text-align: left;
     }
 
+    .about_us p{
+      font-size: 70%;
+      margin-left: 2%;
+    }
+      
     .about_us img{
       width: 50%;
       height: 50%;

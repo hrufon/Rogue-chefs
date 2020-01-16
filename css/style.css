@@ -865,11 +865,6 @@
       text-align: left;
     }
 
-    .about_us p{
-      font-size: 30%;
-      margin-left: 2%;
-    }
-
     .about_us img{
       width: 50%;
       height: 50%;
@@ -877,11 +872,6 @@
 
     .training{
       text-align: left;
-    }
-
-    .training p{
-      font-size: 30%;
-      margin-left: 2%;
     }
 
     .training h1{

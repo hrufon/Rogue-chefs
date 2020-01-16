@@ -305,7 +305,7 @@
     border-bottom: 10px solid transparent; 
     border-left:10px solid #ff1a2c;
     margin-left: 1170px;
-    margin-top: -1.5%;
+    margin-top: -1.8%;
     cursor: pointer;
   }
 
@@ -480,6 +480,17 @@
     margin-top: 5%;
   }
 
+  .happy_clients_rightside .prev_happy_clients{
+    width: 0;
+    height: 0;
+    list-style-type: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #ff1a2c;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+
   .happy_clients_rightside .next_happy_clients{
     width: 0;
     height: 0;
@@ -487,8 +498,8 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent; 
     border-left:10px solid #ff1a2c;
-    margin-left: 500px;
-    margin-top: -3%;
+    margin-left: 450px;
+    margin-top: -3.5%;
     cursor: pointer;
   }
 
@@ -681,7 +692,7 @@
       display: block;
       position: relative;
       top: 25px;
-      right: -50px;
+      right: 300px;
    
       z-index: 1;
    
@@ -706,7 +717,7 @@
      width: 40px;
      height: 32px;
      position: relative;
-     top: -7px;
+     top: -4px;
      left: -5px;
    
      cursor: pointer;
@@ -720,7 +731,7 @@
     #menuToggle span{
      display: block;
      width: 33px;
-     height: 4px;
+     height: 5px;
      margin-bottom: 5px;
      position: relative;
    
@@ -762,7 +773,7 @@
    #menu{
      position: absolute;
      width: 300px;
-     margin: -100px 0 0 -50px;
+     margin: -100px 0 0 300px;
      padding: 50px;
      padding-top: 125px;
    
@@ -887,7 +898,7 @@
      display: block;
      position: relative;
      top: 25px;
-     right: -50px;
+     right: 150px;
   
      z-index: 1;
   
@@ -912,7 +923,7 @@
     width: 40px;
     height: 32px;
     position: relative;
-    top: -7px;
+    top: 3px;
     left: -5px;
   
     cursor: pointer;
@@ -968,7 +979,7 @@
   #menu{
     position: absolute;
     width: 300px;
-    margin: -100px 0 0 -50px;
+    margin: -100px 0 0 140px;
     padding: 50px;
     padding-top: 125px;
   
